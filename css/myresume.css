@@ -1,2 +1,9 @@
-
-
+a.navbar-brand{
+background-color: #006030;
+    width: 4rem;
+    padding-left: 0.68rem;
+    border-bottom-left-radius: 15px;
+    border-end-end-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
