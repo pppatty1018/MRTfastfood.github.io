@@ -7,3 +7,7 @@ background-color: #006030;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+h1.fw-bolder.mb-3{
+    width: 200%;
+    padding-right: 550px;
+}
