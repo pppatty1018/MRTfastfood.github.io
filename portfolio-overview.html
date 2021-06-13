@@ -47,40 +47,107 @@
                 </div>
             </nav>
             <!-- Page Content-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Our Work</h1>
-                        <p class="lead fw-normal text-muted mb-0">Company portfolio</p>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5 mb-lg-0">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                    </div>
+          <div class="content">
+ <div class="change-details__form">
+    <div class="content" id="tabLogin">
+        <h1>會員登入</h1>
+        <div data-tag="Login">
+            <form onsubmit="return false" autocomplete="off">
+                <div class="input-wrapper">
+                    <input type="text" id="txtAcc" name="acc" placeholder="請輸入信箱或手機號碼" require="1" autocomplete="off">
+                    <span for="acc" style="display:none">請輸入信箱或手機號碼</span>
                 </div>
-            </section>
+
+                <div class="input-wrapper">
+                    <input type="password" id="txtPwd" name="pw" placeholder="請輸入密碼" autocomplete="off" require="1">
+                    <span for="pw" style="display:none">請輸入密碼</span>
+                </div>
+            </form>
+            <div class="memberInputbox">
+                <div class="input-wrapper">
+                    <input type="text" id="txtCaptcha" name="Captcha" placeholder="驗證碼" require="1" maxlength="4">
+                    <span for="Captcha" style="display:none">請輸入驗證碼</span>
+                </div>
+                <div class="verification_code">
+                    <img src="/Captcha.ashx?1623574024834" id="imgVerification">
+                </div>
+                <div>
+                    <button class="btn white" onclick="init_Captcha(); Func_Analytic_Click('刷新驗證碼', 'Login')"><span>刷新驗證碼</span></button>
+                </div>
+            </div>
+
+            <div class="forgot-password">
+                <label>
+                    <div class="input-wrapper-checkbox">
+                        <input type="checkbox" name="RememberAccount" id="RememberAccount" value="1" no-value="0">
+                        <div class="img"></div>
+                    </div>
+                    記住我的帳號
+                    <span style="float:right;"><a href="/Club/ForgetPW">忘記密碼</a></span>
+                </label>
+            </div>
+            <label>
+                <div class="input-wrapper-checkbox">
+                    <input type="checkbox" id="AutoLogin" name="AutoLogin" value="1" no-value="0">
+                    <div class="img"></div>
+                </div>
+                保持登入
+            </label>
+        </div>
+
+        <button type="button" class="btn block" id="aMemberLogin"><span>登入</span></button>
+
+        <div id="divCommunity" style="">
+            <h2 class="space7">透過社群帳號登入：</h2>
+            <button type="button" class="btn_fb block" id="FB_Login">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook 帳號登入</span>
+            </button>
+            <button type="button" class="btn_google block" id="btnGpSignIn">
+                <img src="https://storage.googleapis.com/kfcoosfs/ico_google.png">
+                <span>Google 帳號登入</span>
+            </button>
+        </div>       
+      
+        
+        <div style="text-align:center">
+            <button type="button" class="btn_apple block" onclick="DoAppleIDLogin()">
+                <img src="https://storage.googleapis.com/kfcoosfs/apple_icon_30.jpg">
+                <span>Sign In With Apple</span>
+            </button>
+        </div>
+
+        <div onclick="Func_Analytic_Click('加入會員', 'Login');">
+            <button type="button" class="btn block white" onclick="location.href='/Club/Register'">
+                <span>加入會員</span>
+            </button>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+<div class="account__links">
+    <ul class="account-links">
+        <li class="account-link ">
+            <a href="/Club/AboutPKCard">關於PK雙饗卡</a>
+        </li>
+        <li class="account-link current">
+            <a href="/Login">會員登入</a>
+        </li>
+        <li class="account-link ">
+            <a href="/Club/Register">加入會員</a>
+        </li>
+        <li class="account-link ">
+            <a href="/Club/ForgetPW">忘記密碼</a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
             <section class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
