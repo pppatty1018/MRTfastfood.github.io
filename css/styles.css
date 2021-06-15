@@ -2951,6 +2951,23 @@ textarea.form-control-lg {
   background-color: #006030;
   border-color: #fff;
 }
+a.btn.btn-primary.btn-lg.px-4.me-sm-3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+a.btn.btn-primary.btn-lg.px-4.me-sm-3:hover {
+    background-color: #ffc107;
+    color: white;
+}
 .btn-primary:hover {
   color: #fff;
   background-color: #0b5ed7;
