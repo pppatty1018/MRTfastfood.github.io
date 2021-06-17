@@ -2929,7 +2929,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-btn btn-outline-light btn-lg px-4 {
+a.btn btn-outline-light btn-lg px-4 {
 background-color: #ffc107;
 border: none;color: white;padding: 16px 32px;text-align: center;
 text-decoration: none;
@@ -2938,8 +2938,7 @@ display: inline-block;
 margin: 4px 2px;transition-duration: 0.4s;
 cursor: pointer;
 }
-
-btn btn-outline-light btn-lg px-4:hover {
+a.btn btn-outline-light btn-lg px-4:hover {
  background-color: #198853;
  color: white;
 @media (prefers-reduced-motion: reduce) {
