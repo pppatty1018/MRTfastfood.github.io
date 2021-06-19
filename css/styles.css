@@ -9531,6 +9531,13 @@ color: white;
     display: block !important;
   }
 
+  img.col-xl-5.col-xxl-6.d-none.d-xl-block.text-center {
+    position: absolute;
+    bottom: 450px;
+    right: 300px;
+    width: 600px;
+  }
+  
   .d-xl-grid {
     display: grid !important;
   }
