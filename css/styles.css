@@ -3976,7 +3976,7 @@ color: white;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background: #c5ac5e;
+  background: #ffc107;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -7431,7 +7431,7 @@ h2.fw-bolder.mb-0 {
 }
 
 .bg-primary {
-  background-color: #0d6efd !important;
+  background-color: #ffc107 !important;
 }
 
 .bg-secondary {
