@@ -105,9 +105,10 @@ img.16{
     left: 450px;
 }
 img.17{
-	width: 70%;
+	width: 69%;
     position: relative;
     top: 50px;
+	height: 395px;
 }
 img.18{
 	width: 450px;
@@ -184,8 +185,9 @@ img.32{
     left: 600px;
 }
 img.33{
-	position: relative;
-    left: 150px;
+	width: 55%;
+    position: relative;
+    left: 100px;
 }
 img.34{
 	width: 65%;
@@ -293,4 +295,10 @@ img.53{
 	width: 37%;
     position: relative;
     left: 497px;
+}
+img.54{
+	width: 32%;
+    position: relative;
+    left: 53px;
+    top: 155px;
 }
