@@ -42,3 +42,37 @@ img.4{
 	right: 100px;
 	top:150px;
 }
+img.5{
+	width: 60%;
+    position: relative;
+}
+img.6{
+	width: 25%;
+    position: relative;
+    right: 50px;
+    top: 150px;
+}
+img.7{
+	width: 85%;
+}
+img.8{
+	width: 40%;
+    position: relative;
+    left: 250px;
+}
+img.9{
+	width: 58%;
+    position: relative;
+    left: 180px;
+}
+img.10{
+	width: 65%;
+    position: relative;
+    left: 90px;
+}
+img.11{
+	width: 20%;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
