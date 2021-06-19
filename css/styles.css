@@ -3378,7 +3378,8 @@ a.btn.btn-primary.btn-lg.px-4.me-sm-3:hover {
   color: #f8f9fa;
   background-color: transparent;
 }
-a.btn.btn-outline-light.btn-lg.px-4 {
+
+a.btn.btn-outline-light.btn-lg.px-4{
 background-color:#4baf4f;
 border: none;
 color: white;
@@ -3391,7 +3392,7 @@ margin: 4px 2px;transition-duration: 0.4s;
 cursor: pointer;
 }
 
-a.btn.btn-outline-light.btn-lg.px-4:hover {
+a.btn.btn-outline-light.btn-lg.px-4:hover{
 background-color:#ffc107;
 color: white;
 }
