@@ -96,3 +96,21 @@ img.14{
     left: 350px;
     bottom: 110px;
 }
+img.15{
+	position: relative;
+    top: 100px;
+}
+img.16{
+	position: relative;
+    left: 450px;
+}
+img.17{
+	width: 70%;
+    position: relative;
+    top: 50px;
+}
+img.18{
+	width: 450px;
+    position: relative;
+    left: 550px;
+}
