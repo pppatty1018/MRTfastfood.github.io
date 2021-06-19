@@ -31,3 +31,14 @@ img.2{
 	left: 50px;
 	border:20px;
 }
+img.3{
+	width: 40%;
+	position: relative;
+	right: 40px;
+}
+img.4{
+	width: 58%;
+	position: relative;
+	right: 100px;
+	top:150px;
+}
