@@ -7301,6 +7301,12 @@ color: white;
   font-weight: bolder !important;
 }
 
+
+h2.fw-bolder.mb-0 {
+    position: absolute;
+    bottom: 250px;
+}
+
 .lh-1 {
   line-height: 1 !important;
 }
