@@ -9542,6 +9542,7 @@ h2.fw-bolder.mb-0 {
     bottom: 350px;
     right: 300px;
     width: 600px;
+    border: 10px solid #73AD21;
   }
   
   .d-xl-grid {
