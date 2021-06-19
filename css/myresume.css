@@ -76,3 +76,23 @@ img.11{
     left: 50px;
     top: 150px;
 }
+img.12{
+	width: 70%;
+    position: relative;
+    right: 10px;
+    top: 250px;
+    height: 600px;
+}
+img.13{
+	width: 30%;
+    position: relative;
+    left: 625px;
+    bottom: 400px;
+    height: 264px;
+}
+img.14{
+	width: 30%;
+    position: relative;
+    left: 350px;
+    bottom: 110px;
+}
