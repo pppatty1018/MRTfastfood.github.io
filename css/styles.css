@@ -7459,7 +7459,16 @@ h2.fw-bolder.mb-0 {
 }
 
 .bg-light {
-  background-image: url("assets/food.png");
+  background-image: url(https://attach.setn.com/newsimages/2018/09/14/1543310-XXL.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(8px);
+    position: relative;
+    left: 0;
+    top: 0;
+    right: -24px;
+    bottom: -24px;
 }
 
 .bg-body {
