@@ -7307,8 +7307,8 @@ color: white;
 
 
 h2.fw-bolder.mb-0 {
-    position: absolute;
-    bottom: 300px;
+    position: relative;
+    bottom: 50px;
 }
 
 .lh-1 {
@@ -9541,9 +9541,9 @@ h2.fw-bolder.mb-0 {
   }
 
   img.col-xl-5.col-xxl-6.d-none.d-xl-block.text-center {
-    position: absolute;
-    bottom: 350px;
-    right: 300px;
+    position: relative;
+    bottom: -25px;
+    right: 25px;
     width: 600px;
     border: 10px solid #73AD21;
   }
