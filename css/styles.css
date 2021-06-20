@@ -7293,6 +7293,10 @@ color: white;
   font-style: italic !important;
 }
 
+.fs-4.mb-4.fst-italic.subtitle {
+font-weight: bolder !important;
+}
+
 .fst-normal {
   font-style: normal !important;
 }
