@@ -453,3 +453,19 @@ img.54{
     border-width: 0.5rem;
     border-color: whitesmoke;
 }
+img.55{
+	width: 65%;
+    position: relative;
+    top: 115px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.56{
+	width: 43%;
+    position: relative;
+    left: 521px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
