@@ -7153,6 +7153,22 @@ color: white;
   padding-bottom: 3rem !important;
 }
 
+section.py-5.bg-light3 {
+    background-color: rgb(0 0 0 / 15%);
+}
+
+section#scroll-target {
+    background-image: url(https://www.shutterstock.com/zh-Hant/blog/wp-content/uploads/sites/11/2018/11/shutterstock_414537946.jpg?w=760);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 24px;
+    bottom: -24px;
+}
+
 .py-5.bg-light {
     background-image: url(https://attach.setn.com/newsimages/2018/09/14/1543310-XXL.jpg);
     background-size: cover;
@@ -7293,6 +7309,10 @@ color: white;
   font-style: italic !important;
 }
 
+.fs-4.mb-4.fst-italic.subtitle {
+font-weight: bolder !important;
+}
+
 .fst-normal {
   font-style: normal !important;
 }
@@ -7315,6 +7335,7 @@ color: white;
 
 .fw-bolder {
   font-weight: bolder !important;
+  color: #f9fafb;
 }
 
 
@@ -7432,6 +7453,10 @@ h2.fw-bolder.mb-0 {
 
 .text-muted {
   color: #212325 !important;
+}
+
+p.lead.fw-normal.text-muted.mb-0 {
+    color: #e9ecef !important;
 }
 
 .text-black-50 {
