@@ -7153,6 +7153,10 @@ color: white;
   padding-bottom: 3rem !important;
 }
 
+section.py-5.bg-light3 {
+    background-color: rgb(0 0 0 / 15%);
+}
+
 section#scroll-target {
     background-image: url(https://www.shutterstock.com/zh-Hant/blog/wp-content/uploads/sites/11/2018/11/shutterstock_414537946.jpg?w=760);
     background-size: cover;
