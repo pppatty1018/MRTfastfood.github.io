@@ -7458,18 +7458,6 @@ h2.fw-bolder.mb-0 {
   background-color: #dc3545 !important;
 }
 
-.bg-light {
-  background-image: url(https://attach.setn.com/newsimages/2018/09/14/1543310-XXL.jpg);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 10px;
-    top: 0;
-    right: -24px;
-    bottom: -24px;
-}
-
 .bg-body {
   background-color: #fff !important;
 }
