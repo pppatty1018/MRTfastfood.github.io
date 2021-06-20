@@ -281,7 +281,7 @@ img.33{
 	width: 55%;
     position: relative;
     left: 100px;
-	border: solid;
+    border: solid;
     border-width: 0.5rem;
     border-color: whitesmoke;
 }
@@ -465,6 +465,145 @@ img.56{
 	width: 43%;
     position: relative;
     left: 521px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.57{
+	width: 37%;
+    position: relative;
+    left: 561px;
+    top: 286px;
+    z-index: 1;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.58{
+	width: 65%;
+    position: relative;
+    left: 100px;
+    bottom: 185px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.59{
+	width: 60%;
+    position: relative;
+    left: 206px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.60{
+	width: 23%;
+    position: relative;
+    right: 460px;
+    top: 99px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.61{
+	width: 52%;
+    position: relative;
+    left: 328px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.62{
+	width: 52%;
+    position: relative;
+    bottom: 53px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.63{
+	width: 52%;
+    position: relative;
+    left: 145px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.64{
+	width: 40%;
+    position: relative;
+    left: 87px;
+    top: 80px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.65{
+	width: 60%;
+    position: relative;
+    top: 95px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.66{
+	width: 55%;
+    position: relative;
+    left: 402px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.67{
+	width: 65%;
+    position: relative;
+    top: 75px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.68{
+	width: 53%;
+    position: relative;
+    left: 405px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.69{
+	width: 55%;
+    position: relative;
+    top: 80px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.70{
+	width: 55%;
+    position: relative;
+    left: 415px;
+    top: 35px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.71{
+	border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.72{
+	width: 65%;
+    position: relative;
+    top: 66px;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: whitesmoke;
+}
+img.73{
+	width: 53%;
+    position: relative;
+    left: 435px;
     border: solid;
     border-width: 0.5rem;
     border-color: whitesmoke;
