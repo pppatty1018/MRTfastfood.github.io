@@ -7313,6 +7313,16 @@ section#scroll-target {
 font-weight: bolder !important;
 }
 
+.fs-4.mb-4.fst-italic.subtitle {
+    border: 5px solid #ffc107;
+    BACKGROUND-COLOR: #1987544d;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    left: -250px;
+    TOP: 0PX;
+} 
+
 .fst-normal {
   font-style: normal !important;
 }
@@ -7445,6 +7455,16 @@ h2.fw-bolder.mb-0 {
 
 .text-white {
   color: #fff !important;
+}
+
+h1.display-5.fw-bolder.text-white.mb-2 {
+    border: 5px solid #198754;
+    BACKGROUND-COLOR: #ffc10752;
+    border-radius: 25px;
+    padding: 5px;
+    position: relative;
+    left: 250px;
+    TOP: 0PX;
 }
 
 .text-body {
